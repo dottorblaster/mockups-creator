@@ -9,7 +9,7 @@ RUN curl -sL https://deb.nodesource.com/setup | sudo bash -
 RUN sudo apt-get install -y nodejs
 
 ## Install mockups-creator ##
-ADD https://github.com/julianxhokaxhiu/mockups-creator/archive/master.zip
+ADD https://github.com/julianxhokaxhiu/mockups-creator/archive/master.zip .
 RUN unzip master.zip
 RUN npm install
 RUN bower install
