@@ -1,4 +1,4 @@
-FROM nodejs
+FROM dockerfile/nodejs
 MAINTAINER Alessio Biancalana <dottorblaster@archlinux.us>
 
 ## Installing dependencies ##
